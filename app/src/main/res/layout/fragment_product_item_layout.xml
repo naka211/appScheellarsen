@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.azweb.library.scheellarsen.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/border_radius_view">
+
+        <ImageView
+            android:id="@+id/iv_icon_product"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/hoa" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_icon_product">
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BAN BINH BONG GIA RE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_categories_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_product_name"
+                android:layout_marginTop="5dp"
+                android:text="Categories: Binh hoa"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tv_price_buy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_categories_name"
+                android:text="100k"
+                android:textColor="@color/tab_text_color"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.azweb.library.scheellarsen.SlidingRelativeLayout>

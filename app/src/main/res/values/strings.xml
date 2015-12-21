@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Scheel Larsen</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_home_title">HJEM</string>
+    <string name="tab_product_title">PRODUKIER</string>
+    <string name="tab_video_title">VIDEO</string>
+    <string name="tab_impresstion_title">OM OS</string>
+    <string name="tab_infomation_title">INFOMATION</string>
+    <string name="title_abount_video">SE VIDEO PRAESENTATION</string>
+    <string name="title_abount_phone">HVORDAN VIRKER APP</string>
+    <string name="title_abount_website">www.scheel-larsen.dk</string>
+    <string name="title_contact">KONTAKT</string>
+    <string name="title_camera">VIS DETTE SAET I DIN EGEN HAVE</string>
+    <string name="title_network_error">Kan ikke oprette forbindelse til internettet</string>
+    <string name="title_cannot_get_data">Cannot get data</string>
+    <string name="ok">Ja</string>
+    <string name="cancel">Nej</string>
+    <string name="app_id">467650756757370</string>
+</resources>
